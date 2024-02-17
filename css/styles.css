@@ -7,7 +7,7 @@ body {
   background-color: white;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 117%;
@@ -17,7 +17,7 @@ body {
   text-decoration: none;
 }
 .logo-black {
-  font-family: "Raleway";
+  font-family: "Raleway, sans-serif";
   font-size: 18px;
   font-weight: 700;
   line-height: 1.5;
@@ -30,11 +30,11 @@ body {
 }
 
 .navi-menu {
-  font-family: "Roboto";
+  font-family: "Roboto, sans-serif";
   font-size: 16px;
   font-weight: 500;
-  line-height: 110%;
-  letter-spacing: 2%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
 }
@@ -84,6 +84,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: white;
+  cursor: pointer;
 }
 .button:hover {
   background-color: #404bbf;
@@ -103,17 +104,21 @@ body {
 }
 .features-p {
   font-size: 16px;
-  line-height: 120%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 .header-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 120%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
+}
+.photo-crew {
+  background-color: #ffffff;
 }
 .team-background {
   background-color: #f4f4fd;
@@ -122,11 +127,11 @@ body {
   list-style-type: none;
 }
 .header-h3 {
-  font-family: Roboto;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .photo-p {
   line-height: 1.5;

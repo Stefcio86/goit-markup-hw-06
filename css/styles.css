@@ -44,6 +44,9 @@ body {
 .navi-menu:focus {
   color: #404bbf;
 }
+.adress {
+  font-style: normal;
+}
 .contact-list {
   list-style-type: none;
 }
@@ -79,7 +82,7 @@ body {
 }
 .button {
   background-color: #4d5ae5;
-  font-family: "Roboto";
+  font-family: "Roboto, sens-serif";
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -108,7 +111,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-h2 {
+.header-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -126,7 +129,7 @@ body {
 .team-list {
   list-style-type: none;
 }
-.header-h3 {
+.header-three {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;

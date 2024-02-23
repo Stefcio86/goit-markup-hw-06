@@ -255,7 +255,7 @@ header {
   overflow: hidden;
 }
 .section-two {
-  padding: 120px;
+  padding: 120px 0px;
 }
 .section-four {
   background-color: #f4f4fd;

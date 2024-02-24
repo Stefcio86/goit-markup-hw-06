@@ -62,6 +62,9 @@ body {
 .navi-list {
   text-decoration: none;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .navi-menu {
@@ -253,11 +256,7 @@ header {
   display: flex;
   align-items: center;
 }
-.div-navi-list {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
+
 .hidden {
   position: absolute;
   width: 1px;

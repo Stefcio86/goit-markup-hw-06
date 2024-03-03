@@ -307,7 +307,8 @@ body {
   cursor: pointer;
 }
 .icons:focus,
-.icons:hover {
+.icons:hover,
+.icons:active {
   background-color: #404bbf;
 }
 
@@ -412,6 +413,7 @@ section {
 }
 .portfolio-photo {
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-photo :focus .portfolio-photo :hover {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
@@ -488,6 +490,9 @@ section {
 }
 
 .icons-footer:active {
+  background-color: #31d0aa;
+}
+.icons-footer:focus {
   background-color: #31d0aa;
 }
 

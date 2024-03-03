@@ -306,7 +306,8 @@ body {
   justify-content: center;
   cursor: pointer;
 }
-.icons:focus .icons:active .icons:hover {
+.icons:focus,
+.icons:hover {
   background-color: #404bbf;
 }
 
@@ -482,8 +483,10 @@ section {
   cursor: pointer;
 }
 
-.icons-footer:hover,
-.icons-footer:focus,
+.icons-footer:hover {
+  background-color: #31d0aa;
+}
+
 .icons-footer:active {
   background-color: #31d0aa;
 }

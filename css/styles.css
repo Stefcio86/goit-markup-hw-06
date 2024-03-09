@@ -94,20 +94,21 @@ body {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navi-menu:hover {
+/* .navi-menu:hover::before,
+.navi-menu:hover::after {
+  color: #404bbf;
+} */
+.navi-menu:focus:before,
+.navi-menu:focus::after {
   color: #404bbf;
 }
-.navi-menu:focus {
-  color: #404bbf;
-}
-.check {
-  position: relative;
-  color: #404bbf;
-}
-.check::after {
+.check:hover::before,
+.check:hover::after {
   content: "";
   width: 100%;
   position: absolute;
+  /* position: relative; */
+  color: #404bbf;
   left: 0;
   bottom: -1px;
   height: 4px;

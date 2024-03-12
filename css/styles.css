@@ -98,8 +98,8 @@ body {
 .navi-menu:hover::after {
   color: #404bbf;
 } */
-.navi-menu:focus:before,
-.navi-menu:focus::after {
+.navi-menu:hover,
+.navi-menu:focus {
   color: #404bbf;
 }
 .check:hover::before,

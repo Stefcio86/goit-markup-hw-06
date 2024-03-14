@@ -528,6 +528,29 @@ section {
   align-items: center;
   justify-content: center;
 }
+.input-subsc {
+  padding-left: 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  align-content: center;
+  align-items: baseline;
+  outline: none;
+  background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.input-subsc::placeholder {
+  color: white;
+  font-size: 12px;
+}
 .icon-form-footer {
   fill: white;
   margin-left: 16px;
@@ -592,6 +615,7 @@ section {
   color: #2e2f42;
   font-weight: 500;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 
 .form-div {

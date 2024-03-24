@@ -4,16 +4,13 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
-  margin-left: auto;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   gap: 72px;
-  max-width: 1170px;
-  min-width: 320px;
+  /* max-width: 1170px; */
+  max-width: 320px;
+  margin-left: auto;
 
   /* width: 1158px;
   margin: 0 auto;
@@ -91,11 +88,7 @@ img {
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 2%;
-  background-color: white;
-  margin: 0;
+  background-color: #ffffff;
 }
 
 .logo-black {
@@ -373,11 +366,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 .portfolio-p {
   margin-bottom: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .photo-p {
@@ -391,17 +384,16 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0 auto;
 }
 .footer {
   background-color: #2e2f42;
-  height: auto;
   padding: 96px 0;
-  display: flex;
 }
 .footer-div {
+  display: flex;
+  align-items: baseline;
   flex-direction: column;
-  align-items: center;
-  gap: 72px;
 }
 .logo-white {
   font-family: "Raleway";
@@ -484,6 +476,11 @@ section {
 }
 
 .logo-footer {
+  display: block;
+  margin-right: 0;
+  align-content: center;
+  text-align: center;
+  padding: 0;
   margin-bottom: 16px;
 }
 .footer-p {
@@ -494,7 +491,8 @@ section {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
-  max-width: 264px;
+  width: 100%;
+  padding-bottom: 72px;
 }
 
 .footer-social-p {
@@ -506,11 +504,13 @@ section {
   letter-spacing: 0.02em;
   text-align: left;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .small-icons-footer {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .icons-footer {
@@ -535,9 +535,12 @@ section {
 .footer-left {
   margin: 0 auto;
 }
-/* .subsc {
+.subsc {
   margin-left: auto;
-} */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .subsc-form {
   display: flex;
   gap: 24px;
@@ -562,6 +565,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 .subscribe {
   height: 40px;

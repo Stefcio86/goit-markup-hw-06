@@ -938,6 +938,7 @@ padding-bottom:72px;
     font-size: 12px;
     line-height: 2;
     opacity: 0.6;
+    color:white;
 }
 .icon-form-footer {
   fill: white;
@@ -1005,20 +1006,22 @@ padding-bottom:72px;
   .footer-div {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: baseline;
   justify-content: center;
-  max-width: 100%;
+  max-width: fit-content; 
 }
-
+.footer-social{
+  padding-right: 80px;
+}
 .footer-left {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 .footer-p {
   width: 264px;
 }
 .subsc {
-  padding-left: 90px;
+  margin-left: auto;
 }
 .logo-footer {
   display: inline-block;
